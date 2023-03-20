@@ -1,0 +1,18 @@
+brasileirao = ('Palmeiras', 'Internacional', 'Fluminense', 'Corinthians', 'Flamengo', 'Athletico Paranaense', 'Atlético Mineiro', 'Fortaleza', 'São Paulo',
+                'América Fc Saf', 'Botafogo', 'Santos', 'Goiás', 'Red Bull Bragantino', 'Coritiba', 'Cuiabá', 'Ceará', 'Atlético', 'Avaí', 'Juventude')
+
+print('')
+print('-=-'*15)
+print(f'Lista de times do Brasileirão: {brasileirao}')
+print('-=-'*15)
+print('')
+print(f'Os 5 primeiros colocados são: {brasileirao[0: 5]}')
+print('-=-'*15)
+print('')
+print(f'Os 4 últimos colocados são: {brasileirao[-4:]}')
+print('-=-'*15)
+print('')
+print(f'Ordem alfabética: {sorted(brasileirao)}')
+print('-=-'*15)
+print('')
+print(f'O São Paulo está na posição: {brasileirao.index("São Paulo")+1}')
